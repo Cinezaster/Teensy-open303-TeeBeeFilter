@@ -7,4 +7,6 @@ The onePole Highpass filter in the feedbackSignal is been implemented directly w
 
 ## TODO
 
-- Look into why the input signal can't more then 50%, else the output signal get's distorted. 
+- Look into why the input signal can't more then 50%, else the output signal get's distorted (almost wavefolded).
+- Implement external cutoff control
+- Implement external resonance control 
