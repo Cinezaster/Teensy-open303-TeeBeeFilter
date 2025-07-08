@@ -40,7 +40,7 @@ public:
 private:
   float b0, a1;              // coefficients for the first order sections
   float y1, y2, y3, y4;      // output signals of the 4 filter stages
-  float c0, c1, c2, c3, c4;  // coefficients for combining various ouput stages
+  float c0, c1, c2, c3, c4;  // coefficients for combining various output stages
   float k;                   // feedback factor in the loop
   float g;                   // output gain
   float driveFactor;         // filter drive as raw factor
