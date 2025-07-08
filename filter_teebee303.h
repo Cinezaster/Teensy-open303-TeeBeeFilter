@@ -20,6 +20,9 @@ public:
     resonanceSkewed = 0.0;
     g = 1.0;
 
+    y1 = y2 = y3 = y4 = 0.0f;
+    hp_x1 = hp_y1 = 0.0f;
+
     twoPiOverSampleRate = 2.0f * PI / AUDIO_SAMPLE_RATE_EXACT;
 
     hp_cutoff = 150.0;
@@ -62,5 +65,4 @@ private:
 
   audio_block_t *inputQueueArray[3];
 };
-
 #endif
